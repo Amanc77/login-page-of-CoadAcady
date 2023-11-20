@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+}
+
+:root{
+    --main-color:#6400e4;
+    --box-shadow:0px 3px 5px 0px rgba(0,0,0,0.35);
+    --hover-shadow:0px 4px 4px 0px rgba(3,3,3,0.562);
+    --nav-shadow:0px,0px,10px,0px rgba(0,0,0,0.100);
+    --light-black:#141c3a;
+
+
+}
+
+
+
+
+.wrapper{
+    height: 100vh;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(2, 2, 2);
+    
+}
+.container{
+    border:  1px;
+    height: 500px;
+    width: 25%;
+    border-radius: 20px;
+    margin: 0px, 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(189, 243, 225);
+}
+form{
+    display: flex;
+    flex-direction: column;
+    margin:30px 0;
+}
+form label{
+    margin: 5px 0;
+}
+form input[type="email"],input[type="password"]{
+    height:35px ;
+    width: 250px;
+    border: 0.5px solid rebeccapurple;
+    border-radius: 3px;
+}
+form input{
+    margin: 10px 0;
+}
+
+form button{
+    height: 30px;
+    width: 250px;
+    margin-top: 6px;
+    background-color: var(--main-color);
+    descent-override: none;
+}
+.images img{
+    height: 50px;
+     border: 2px  ;
+    padding: 8px;
+    background-color: white;
+    box-shadow: var(--box-shadow) ;
+
+}
+.logoup{
+    margin-top: 20px;
+    transform: translateY(25px);
+    
+}
+.footer {
+    transform: translateX(30px);
+    margin-top: 10px;
+}
+.images img:hover{
+    box-shadow: var(--box-shadow);
+    scale: 1.1;
+}
+h3{
+    position: relative;
+    font-size: 25px;
+    text-align: left;
+    font-weight: 10rem;
+}
+form button:hover{
+    background-color: rgb(245, 63, 13);
+}
